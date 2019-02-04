@@ -2,7 +2,7 @@
 This a GraphQL API which uses localhost server graphiql as a frontend.
 
 The database is a MongoDB database which has top 10 rated movies from imdb website.
-All the necessary node_modules such as 'graphql', 'express-graphql', 'mongoose' etc. are installed in the bash cmd.
+All the necessary node_modules such as 'graphql', 'express-graphql', 'mongoose' etc. are installed in the bash cmd. 
 
 The connection to mongodb takes place in "app.js"; wherein all the required node_modules are included.
 
@@ -22,6 +22,8 @@ For Mutation:
     /add - use "mutation{ addMovie(args){ } }" in the graphiql.
     /deleteById - use "deleteMovie(id:" "){ }" in the graphiql.
     /update - use "updateMovie(id to be updated:" ",args{ }" in the graphiql.
+
+Please check the Screenshots folder for the queries and the execution in detail.
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\THANK - YOU///////////////////////////////////////////////////////////////////
 
