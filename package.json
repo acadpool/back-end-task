@@ -1,0 +1,25 @@
+{
+  "name": "back-end-task",
+  "version": "1.0.0",
+  "description": "Build REST APIs server using Node.js and Express.js on any database of your choice.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek-butola/back-end-task.git"
+  },
+  "author": "Abhishek butola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek-butola/back-end-task/issues"
+  },
+  "homepage": "https://github.com/abhishek-butola/back-end-task#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.8"
+  }
+}
