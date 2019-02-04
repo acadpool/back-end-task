@@ -1,0 +1,197 @@
+
+FOR WINDOWS ONLY----------
+
+DATABASE PART
+-------------
+
+1- Download and install mongoDB in your computer
+	a)-add mongodb to path in system variable "C:\Program Files\MongoDB\Server\4.0\bin"
+	b)-create folder structure inside C: like "C:\data\db" db is an empty folder
+
+
+2- Start mongoDB server (in one windows powershell run command "mongod" ) and mongo Shell (in another windows powershell run command "mongo")
+
+
+3- By default two or three databases will be present. We have to create our
+
+
+4- To create database--
+
+	don't use inverted commas in shell it is added just for clarification
+
+	a)- Run command "use quotes" to create a database with name 'quotes'(mind the plural form it's important)
+	b)- Run command "db.quotes.insertOne({date_created:"",author:"XYZ",quote_type:"abc",content:"this is a random text"})"
+	
+	--it will create one entry in collection.
+
+
+5- A saparate file named "database entries" is provided with coded entries to insert in collection copy paste it in mongo shell. It will add upto 20 entries 
+   in database.
+
+
+NOW TO RUN THE BACK-END TASK WEBSITE
+------------------------------------
+
+INFO:- The whole project is devided into to parts "client" & "server" apart from the project root directory
+
+
+PRE-REQUESITES-- NODE DEVELOPEMENT ENVIRONMENT CONFIGURED PROPERLY(installing node js will work probably)
+
+1- The root directory contains files- package.json, package-lock.json, README.md and  .git (hidden)
+
+2- To install node dependencies of project open windows powershell in root directory.
+
+	a)- in root directory run command "npm install" in powershell
+		it will take some time to install dependencies.
+
+	b)- change directory to client and run command "npm install"
+		it will install dependencies of client side. wait until it completes..
+
+	c)- change directory to 'server' run "npm install" to install server-side dependencies
+		wait until it completes.
+
+	now the project is ready to be served on localhost.
+
+
+3- Go back to root directory in powershell
+
+make sure the mongoDB server is running and run command "npm start"
+
+wait until both servers run properly...
+
+client side react node server and express server... react server takes time wait until it completes 
+
+when powershell show some green text(possibly) saying something like visit to localhost then it is completed
+
+open browser and navigate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
