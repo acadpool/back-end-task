@@ -14,20 +14,27 @@ In the models folder: The "movies.js" file contains the MovieSchema along with a
                       The "movies.js" file is included in "app.js"; wherein, all the tasks are carried out.
 
 
-    /getAll - use http://localhost:3000/movies/getAll req = GET , res = json(movies)
+    /getAll - use http://localhost:3000/movies/getAll 
+         req = GET , res = json(movies)
     
-    /getAll (pagination) - use http://localhost:3000/movies/getAllPagination req = GET , res = json(movies)
+    /getAll (pagination) - use http://localhost:3000/movies/getAllPagination 
+         req = GET , res = json(movies)
     
-    /getById - use http://localhost:3000/movies/getById/:_id req = GET , res = json(movie)
+    /getById - use http://localhost:3000/movies/getById/:_id 
+         req = GET , res = json(movie)
     
-    /search - use http://localhost:3000/movies/search/:genre req = GET , res = json(movies)
-                          (The string passed in the argument is genre)
+    /search - use http://localhost:3000/movies/search/:genre 
+         req = GET , res = json(movies)
+           (The string passed in the argument is genre)
 
-    /add - use http://localhost:3000/movies/add/ req = POST , res = json(movie)
+    /add - use http://localhost:3000/movies/add/ 
+         req = POST , res = json(movie)
     
-    /deleteById - use http://localhost:3000/movies/deleteById/:_id req = DELETE , res = json(movie)
+    /deleteById - use http://localhost:3000/movies/deleteById/:_id 
+         req = DELETE , res = json(movie)
     
-    /update - use http://localhost:3000/movies/movies/update/:_id req = PUT , res = json(movie)
+    /update - use http://localhost:3000/movies/movies/update/:_id 
+         req = PUT , res = json(movie)
 
 Please check the Screenshots folder for the queries and the execution in detail. Postman is used for the query handling and execution of the HTTP links given above.
 
