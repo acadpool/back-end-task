@@ -5,6 +5,9 @@ The database is a MongoDB database which has top 10 rated movies from imdb websi
 All the necessary node_modules such as 'graphql', 'express-graphql', 'mongoose' etc. are installed in the bash cmd. 
 
 The connection to mongodb takes place in "app.js"; wherein all the required node_modules are included.
+    
+    mongoose.connect('mongodb://localhost/graphqlimdb', { useNewUrlParser: true });
+"graphqlimdb" is the database name created in the MongoDB server.
 
     Then on "localhost:5000/graphql"; the automated graphiql UI opens up for MongoDB Json queries and mutations.
 
