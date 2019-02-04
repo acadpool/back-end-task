@@ -5,7 +5,10 @@ const bodyParser = require('body-parser');
 const app = express();
 
 //connect to db
-mongoose.connect('mongodb://localhost:27017/back', { useNewUrlParser: true });
+mongoose.connect(
+  'mongodb://abhishek1999:abhishek1999@ds221095.mlab.com:21095/backend-task',
+  { useNewUrlParser: true }
+);
 
 //routes
 const story = require('./api/routes/story');
