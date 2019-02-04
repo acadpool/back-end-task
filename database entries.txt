@@ -1,0 +1,35 @@
+db.quotes.insertMany([
+
+{date_created:"",author:"Petronius, The Satyricon",quote_type:"abc",content:"Can't you see that I'm only advising you to beg yourself not to be so dumb?"},
+
+{date_created:"",author:"Tahir Shah",quote_type:"abc",content:"A journey, I reflected, is of no merit unless it has tested you."},
+
+{date_created:"",author:"Alberto Manguel",quote_type:"abc",content:"Digestion of words as well; I often read aloud to myself in my writing corner in the library, where no one can hear me, for the sake of better savouring the text, so as to make it all the more mine."},
+
+{date_created:"",author:"Mokokoma Mokhonoana",quote_type:"abc",content:"We are loved way more by some of the people who have not contacted us in the last twelve or so months than we are loved by some of those who contact us every twelve or so days … or hours."},
+
+{date_created:"",author:"Jayce O'Neal",quote_type:"abc",content:"Cellaholics are those who interrupt quality time when they are with you, but rather text, call, and email others who are somewhere else."},
+
+{date_created:"",author:"Anonymous",quote_type:"abc",content:"If you want to achieve greatness stop asking for permission."},
+
+{date_created:"",author:"John Wooden",quote_type:"abc",content:"Things work out best for those who make the best of how things work out."},
+
+{date_created:"",author:"Anonymous",quote_type:"abc",content:"To live a creative life, we must lose our fear of being wrong."},
+
+{date_created:"",author:"Jim Rohn",quote_type:"abc",content:"If you are not willing to risk the usual you will have to settle for the ordinary."},
+
+{date_created:"",author:"Anonymous",quote_type:"abc",content:"Trust because you are willing to accept the risk, not because it's safe or certain."},
+
+{date_created:"",author:"Swami Vivekananda",quote_type:"abc",content:"Take up one idea. Make that one idea your life--think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success."},
+
+{date_created:"",author:"Walt Disney",quote_type:"abc",content:"All our dreams can come true if we have the courage to pursue them."},
+
+{date_created:"",author:"Anonymous",quote_type:"abc",content:"Good things come to people who wait, but better things come to those who go out and get them."},
+
+{date_created:"",author:"Winston Churchill",quote_type:"abc",content:"Success is walking from failure to failure with no loss of enthusiasm."},
+
+{date_created:"",author:"Vaibhav Shah",quote_type:"abc",content:"Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them."},
+
+{date_created:"",author:"Eleanor Roosevelt",quote_type:"abc",content:"Great minds discuss ideas; average minds discuss events; small minds discuss people."}
+
+])
