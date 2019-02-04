@@ -23,9 +23,8 @@ For Mutation:
     /deleteById - use "deleteMovie(id:" "){ }" in the graphiql.
     /update - use "updateMovie(id to be updated:" ",args{ }" in the graphiql.
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\THANK - YOU///////////////////////////////////////////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\THANK - YOU///////////////////////////////////////////////////////////////////
 
 PROJECT CREATED BY - Prashant Wakchaure
           Email ID - prashant900555@gmail.com
        Contact No. - 8975366296
-
