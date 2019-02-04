@@ -1,0 +1,12 @@
+.card-text{
+    background-color:rgb(102, 179, 255);
+    margin-top: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+.card{
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 20rem;
+}
