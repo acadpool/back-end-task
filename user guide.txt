@@ -5,12 +5,14 @@ DATABASE PART
 -------------
 
 1- Download and install mongoDB in your computer
+	a)-add mongodb to path in system variable "C:\Program Files\MongoDB\Server\4.0\bin"
+	b)-create folder structure inside C: like "C:\data\db" db is an empty folder
 
 
-2- Start mongoDB server (in one windows powershell) and mongo Shell (in another windows powershell)
+2- Start mongoDB server (in one windows powershell run command "mongod" ) and mongo Shell (in another windows powershell run command "mongo")
 
 
-3- By default two databases will be present. We have to create our
+3- By default two or three databases will be present. We have to create our
 
 
 4- To create database--
@@ -33,7 +35,7 @@ NOW TO RUN THE BACK-END TASK WEBSITE
 INFO:- The whole project is devided into to parts "client" & "server" apart from the project root directory
 
 
-PRE-REQUESITES-- NODE DEVELOPEMENT ENVIRONMENT CONFIGURED PROPERLY
+PRE-REQUESITES-- NODE DEVELOPEMENT ENVIRONMENT CONFIGURED PROPERLY(installing node js will work probably)
 
 1- The root directory contains files- package.json, package-lock.json, README.md and  .git (hidden)
 
