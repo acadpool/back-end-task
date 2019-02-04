@@ -19,3 +19,5 @@ GET
 ## Add new Entry
 POST  title, description
 ``` https://murmuring-bayou-86899.herokuapp.com/api/story ``` 
+
+#### Email- abhishekbutola06@gmail.com
