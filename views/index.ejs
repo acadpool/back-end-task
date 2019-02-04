@@ -1,0 +1,33 @@
+<% include partials/header %>
+ 
+
+   <div class="ui container">
+  
+    <h1 class="header">Footballer's Info</h1>
+   <div class="ui segment">
+      <div class="ui two column very relaxed grid">
+    <% info.forEach(function(info){%>
+    
+    <div class ="column">
+   
+      
+    <div class ="header">
+       <h2><%=  info.name %></h5>
+    </div>
+    <div class="description">
+   <p> <%= info.age%></p>
+
+   </div>
+   
+ </div>
+
+ 
+
+
+ 
+   
+<%}); %>
+ </div>
+</div>
+</div>
+<% include partials/footer %>

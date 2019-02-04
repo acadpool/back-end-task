@@ -1,0 +1,42 @@
+<% include partials/header %>
+ 
+<div class="ui container">
+<h1 >New Blog</h1>
+<br>
+<br>
+<form class ="ui form" action="/getAll" method="POST">
+  <div class=" six wide field">
+    <label>Name</label>
+    <input type="text" name="info[name]" placeholder="Name">
+  </div>
+  <div class="six wide field">
+    <label>Age</label>
+    <input type="text" name="info[age]" placeholder="Age">
+  </div>
+ 
+  <div>
+    <button class="ui button secondary " type="submit">Submit</button>
+  </div>
+  <!--  <div class="form-group">-->
+  <!--  <label for="Name">Title Of the Blog</label>-->
+  <!--  <input type="text" class="form-control"  name="info[name]" placeholder="Title">-->
+  <!--</div>-->
+  
+  <!-- <div class="form-group">-->
+  <!--  <label for="Image URL">Image URL</label>-->
+  <!--  <input type="text" class="form-control"  name="info[image]" placeholder="Image">-->
+  <!--</div>-->
+  
+  <!--<div class="form-group">-->
+  <!--  <label for="Content">Content</label>-->
+  <!--  <textarea class="form-control" name="info[content]" rows="3"></textarea>-->
+  <!--</div>-->
+  
+  <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+  
+    
+   
+</form>
+
+</div>
+<% include partials/footer %>
