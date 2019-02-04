@@ -83,7 +83,13 @@ const deleteById = async (req, res) => {
   }
 
   Story.findByIdAndDelete(req.params.id)
-    .then(res.json({ message: 'Successfully Deleted' }))
+    .then(result => {
+      if (result) {
+        res.json({ message: 'Successfully Deleted' });
+      } else {
+        res.status(404).json({ message: 'Story not found' });
+      }
+    })
     .catch(err => console.log(err));
 };
 
