@@ -1,0 +1,18 @@
+{
+  "name": "imdbmovies",
+  "version": "1.0.0",
+  "description": "To get top ten rated movies on imdb charts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server":"run nodemon app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*",
+    "nodemon": "*"
+  },
+  "author": "Prashant Wakchaure",
+  "license": "ISC"
+}
