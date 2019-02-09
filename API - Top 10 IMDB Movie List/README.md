@@ -1,5 +1,5 @@
 
-This is a plain API which uses nodejs, expressjs, mongoose(MongoDB) and Postman for GET,POST,PUT,DELETE query handling and execution.
+# This is a plain API which uses nodejs, expressjs, mongoose(MongoDB) and Postman for GET,POST,PUT,DELETE query handling and execution.
 
 The database is a MongoDB database which has top 10 rated movies from imdb website.
 
