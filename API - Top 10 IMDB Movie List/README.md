@@ -1,10 +1,9 @@
 
 # This is a plain API which uses nodejs, expressjs, mongoose(MongoDB) and Postman for GET,POST,PUT,DELETE query handling and execution.
 
-The database is a MongoDB database which has top 10 rated movies from imdb website.
-
-All the necessary node_modules such as 'mongoose', 'express', 'bodyParser' etc. are installed in the bash cmd.
-
+<h4>
+The database is a MongoDB database which has top 10 rated movies from imdb website. All the necessary node_modules such as 'mongoose', 'express', 'bodyParser' etc. are downloaded & installed through the bash cmd using GIT.
+</h4>
 The connection to mongodb takes place in "app.js"; wherein all the required node_modules are included.
         
         mongoose.connect('mongodb://localhost/apiimdb', { useNewUrlParser: true });
